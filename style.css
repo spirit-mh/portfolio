@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    text-align: center;
+    height: 150px;
+    background-color: brown;
+    margin-top: 0;
+    padding: 0%;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+header a:hover {
+    border-bottom: 1px solid white;
+    color: aquamarine;
+    ;
+}
+
+main {
+    display: inline;
+
+
+}
