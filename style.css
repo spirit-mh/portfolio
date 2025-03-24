@@ -1,36 +1,205 @@
 body {
     background-color: black;
-    color: antiquewhite;
-    font-family: monospace;
-    margin: 0;
+    color: whitesmoke;
+    font-family: 'roboto', monospace;
     padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
 
+/* index header */
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-header {
-    text-align: center;
-    height: 150px;
-    background-color: brown;
-    margin-top: 0;
-    padding: 0%;
+header #titre a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 0.5em;
     text-transform: uppercase;
 }
 
-header a {
+.body header div hr {
+    width: 50px;
+}
+
+/* index main */
+
+.body main .div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.body .div p {
+    font-style: italic;
+}
+
+.body .div .p1:hover {
+    font-size: larger;
+    transition-duration: 0.65s;
+}
+
+.body .div .p2:hover {
+    font-size: larger;
+    transition-duration: 0.65s;
+}
+
+.body .div .p3:hover {
+    font-size: larger;
+    transition-duration: 0.25s;
+}
+
+.body img {
+    width: 250px;
+    border-radius: 50%;
+    padding: 0 30px;
+}
+
+.body .link li {
+    list-style-type: none;
+}
+
+.body .link a {
+    color: aliceblue;
     text-decoration: none;
-    color: azure;
+}
+
+.body .link a:hover {
+    color: teal;
+    transition-duration: 0.25s;
+    font-size: large;
+    text-shadow: 4px 4px 10px rgba(233, 227, 227, 0.778);
+}
+
+.body .sect ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sect ul a {
+    padding: 40px;
 
 }
 
-header a:hover {
-    border-bottom: 1px solid white;
-    color: aquamarine;
-    ;
+button {
+    padding: 10px 10px;
+    width: 150px;
+    height: 80px;
 }
 
-main {
-    display: inline;
+.container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 5px 0;
+}
+
+/* index 2 de lhtml */
+
+/* index2 header */
+.hr {
+    width: 200px;
+    color: aliceblue;
+
+}
+
+.body-1 .head-1 {
+    font-weight: bold;
+
+}
+
+.body-1 .head-1 .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.body-1 .head-1 {
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.body-1 .head-1 .link a {
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+
+}
+
+.body-1 .head-1 .title a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.body-1 .head-1 .link li {
+    list-style-type: none;
+
+}
+
+.body-1 .head-1 .link a:hover {
+    color: teal;
+    transition-duration: 0.25s;
+    font-size: large;
+    text-shadow: 4px 4px 10px rgba(233, 227, 227, 0.778);
+}
+
+/* index2 main */
+
+#services .divv {
+    padding: 10px;
+    margin: 20px 20px 20px 0;
+    background-color: rgba(206, 196, 182, 0);
+    color: rgb(207, 205, 205);
+    border-radius: 10px 20px 10px 0;
+    box-shadow: 0px 0px 15px 0px rgb(117, 168, 168);
+}
+
+.title-2 {
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#services div li {
+    list-style-type: none;
+}
+
+.body-1 #services ul div dl li::before {
+    content: "⮞ ";
+}
+
+.body-1 #services span {
+    color: teal;
+}
+
+.body-1 #paragraphe p {
+    text-align: center;
+    color: brown;
+    padding-top: 30px;
+
+}
+
+/* index2 footer */
+
+footer {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
 
 
 }
